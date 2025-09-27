@@ -1,0 +1,81 @@
+  /* ---- ESTILOS GENERALES ---- */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header h1 {
+            color: #1f2937;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        /* ---- CONTENEDOR DE FORMULARIOS ---- */
+        .container {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /* ---- ETIQUETAS E INPUTS ---- */
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #374151;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        input[disabled] {
+            background-color: #e5e7eb;
+            color: #6b7280;
+        }
+
+        /* ---- BOTONES ---- */
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        button:nth-child(2) {
+            background-color: #6b7280;
+        }
+
+        button:nth-child(2):hover {
+            background-color: #4b5563;
+        }

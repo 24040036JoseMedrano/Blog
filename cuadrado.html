@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+    <link rel="stylesheet" href="styles/cuadrado.css">
+
+</head>
+
+
+<body>
+    <form name="form1" action="">
+        <label for="">Ingresa Numero</label>
+        <input type="number" name="num1" id="num1"
+         placeholder="numero">
+    </form>
+
+    <form name="form2" action="">
+        <label for="">Resultado</label>
+            <input type="number" name="resultado" id="resultado"
+            placeholder="resultado">
+            <input type="text" disabled value="El resultado es el cuadrado del numero" id="resultado2">
+    </form>
+
+    <form name="form3" action="">
+        <button type="button" name="btn1"
+        onclick="Cuadrado()">
+            Calcular Cuadrado
+        </button>
+
+        <button type="reset" name="btn2"
+        onclick="Borrar()">
+            Borrar
+        </button>
+    </form>
+    <script src="js/cuadrado.js"></script>
+</body>
+</html>

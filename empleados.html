@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Nómina</title>
+    <link rel="stylesheet" href="styles/empleados.css">
+</head>
+
+<body>
+    <header>
+        <h1>Registro de Nómina</h1>
+    </header>
+
+    <form name="form1" action="">
+        <label for="id">ID Empleado:</label>
+        <input type="number" name="id" id="id">
+    </form>
+
+    <form name="form2" action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+    </form>
+
+    <form name="form3" action="">
+        <label for="horas">Horas trabajadas (semana):</label>
+        <input type="number" name="horas" id="horas">
+      
+    </form>
+
+    <form name="form4" action="">
+        <label for="costo">Costo por hora:</label>
+        <input type="number" name="costo" id="costo">
+
+    </form>
+
+    <form name="form5" action="">
+        <label for="res1">Horas normales:</label>
+        <input type="number" disabled value="">
+
+        <label for="res2">Horas extras:</label>
+        <input type="number" disabled value="">
+
+        <label for="res3">Subtotal:</label>
+        <input type="number" disabled value="">
+
+        <label for="res4">ISPT (10%):</label>
+        <input type="number" disabled value="">
+
+        <label for="res5">Monto a pagar:</label>
+        <input type="number" disabled value="">
+    </form>
+
+<form name="form6" action="">
+    <button type="button" name="btn1" onclick="Calcular()">
+        Calcular
+    </button>
+    <button type="reset" name="btn2" onclick="Borrar()">
+        Limpiar
+    </button>
+</form>
+
+
+<script src="js/empleados.js"></script>
+
+</body>
+</html>

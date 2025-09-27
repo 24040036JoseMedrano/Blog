@@ -1,0 +1,78 @@
+/* --- Estilo general --- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f4f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* --- Formularios --- */
+form {
+    background: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+}
+
+/* --- Etiquetas --- */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* --- Inputs --- */
+input[type="number"],
+input[type="text"] {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+    transition: 0.2s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* --- Botones --- */
+button {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.1s ease;
+}
+
+button[name="btn1"] {
+    background: #007bff;
+    color: white;
+}
+
+button[name="btn1"]:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+button[name="btn2"] {
+    background: #dc3545;
+    color: white;
+}
+
+button[name="btn2"]:hover {
+    background: #a71d2a;
+    transform: scale(1.05);
+}

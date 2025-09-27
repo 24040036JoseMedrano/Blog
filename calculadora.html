@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="styles/calculadora.css">
+</head>
+<body>
+
+    <!-- FORMULARIO PARA LOS NÚMEROS -->
+    <form name="form1" action="">
+        <label for="">Número 1</label>
+        <input type="number" name="num1" id="num1" placeholder="Primer número">
+
+        <label for="">Número 2</label>
+        <input type="number" name="num2" id="num2" placeholder="Segundo número">
+    </form>
+
+    <!-- RESULTADO -->
+    <form name="form2" action="">
+        <label for="">Resultado</label>
+        <input type="number" name="resultado" id="resultado" placeholder="Resultado">
+    </form>
+
+    <!-- BOTONES -->
+    <form name="form3" action="">
+        <button type="button" onclick="Suma()">Suma</button>
+        <button type="button" onclick="Resta()">Resta</button>
+        <button type="button" onclick="Multiplicacion()">Multiplicación</button>
+        <button type="button" onclick="Division()">División</button>
+        <button type="reset" onclick="Borrar()">Borrar</button>
+    </form>
+
+    <script src="js/calculadora.js"></script>
+
+</body>
+</html>
